@@ -1,0 +1,312 @@
+body {
+    margin: 0%;
+
+    @extend %text;
+}
+
+%text {
+    font-family: Arial, Helvetica, sans-serif;
+    font: sans-serif;
+    text-decoration: solid #2c2d35;
+    font-size: medium;
+    color: #2c2d35;
+}
+
+.main-body {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.fream{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    height: auto;
+    position: relative;
+
+    button {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        height: 60px;
+        width: 200px;
+        line-height: 20px;
+        list-style: none;
+        background-color: #ffffff;
+        border-style: solid;
+        border-color: #376B44;
+        box-sizing: border-box;
+        padding: 20px;
+        
+
+    }
+
+    .button :hover {
+        background-color: #376B44;
+        color: aliceblue;
+        transition: 1s;
+    }
+
+    .text {
+        font-size: 20pt;
+    }
+}
+
+.REP {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    #id1 {
+        justify-self: start;
+        width: 30%;
+        text-align: center;
+    }
+
+    .REP_buttons {
+        min-width: 290px;
+
+        :hover {
+            background-color: #376B44;
+            color: aliceblue;
+            transition: 1s;
+        }
+    }
+
+    button {
+        justify-self: end;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        background-color: #E1EDE6;
+        border-style: none;
+        box-sizing: border-box;
+        padding: 7px 16px;
+    }
+}
+
+.REPS {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: 2s;
+    justify-content: space-between;
+
+    .plit {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #E1EDE6;
+        max-width: 350px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            text-decoration: solid #2c2d35;
+            -webkit-font-smoothing: antialiased;
+            line-height: 150%;
+            color: #2c2d35;
+        }
+
+        .txt1 {
+            color: #9a9cab;
+        }
+
+        .txt2 {
+            color: #2c2d35;
+        }
+
+        .txt4 {
+            color: #376B44;
+        }
+
+        button {
+            text-align: center;
+            vertical-align: baseline;
+            font-size: 20px;
+            font-weight: 500;
+            height: 60px;
+            width: 100%;
+            line-height: 20px;
+            list-style: none;
+            background-color: #E1EDE6;
+            border-style: solid;
+            border-color: #376B44;
+            box-sizing: border-box;
+            padding: 20px;
+            overflow: hidden;
+        }
+        .button {
+            :hover {
+                background-color: #376B44;
+                color: aliceblue;
+                transition: 1s;
+
+            }
+        }
+
+    }
+}
+
+.ban {
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    position: relative;
+    background-image: url(/img/back.png);
+    background-size: 100%;
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        text-decoration: solid #2c2d35;
+        color: aliceblue;
+        -webkit-font-smoothing: antialiased;
+        line-height: 150%;
+    }
+    
+
+    .ban-1 {
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 10px;
+        .ban-txt {
+            font-size: 3vw;
+            color: aliceblue;
+            width: 50%;
+            background-image: url(../img/ZV.svg);
+            background-position: left center;
+            background-size: 8vw;
+            background-repeat: no-repeat;
+            padding-left: 12%;
+
+            img {
+                width: 50px;
+            }
+        }
+
+        .ban-txt-2 {
+            font-weight: 500;
+            color: aliceblue;
+            width: 50%;
+        }
+    }
+
+    .ban-2 {
+        padding-left: 7%;
+        padding-right: 7%;
+        width: 250px;
+
+        :hover {
+            color: aliceblue;
+            background-color: #c3ad2f;
+            transition: 1s;
+
+        }
+        button {
+            text-align: center;
+            vertical-align: middle;
+            font-size: 1em;
+            font-weight: 500;
+            height: 60px;
+            width: 250px;
+            background-color: #EEDB6D;
+            box-sizing: border-box;
+            padding: 20px;
+            overflow: hidden;
+            border: none;
+            
+        }
+    }
+}
+.squad {
+    padding-left: 7%;
+    padding-right: 7%;
+    margin: 70px 0 0 0;
+    img {
+        width: 100%;
+        height: auto;
+
+    filter: blur(3px);
+    }
+    :hover{
+        filter:none;
+        transition: 1s;
+    }
+    :not(:hover){
+
+        filter: blur(3px);
+        transition: 1s;
+    }
+    
+}
+@media (min-width: 690px) {
+    .fream{
+        display: grid;
+        gap: 16px;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        height: auto;
+
+        position: relative;
+
+        aside img {
+
+            align-self: start;
+            max-width: 100%;
+            height: auto;
+            min-width: 200px;
+        }
+
+        .fream_txt {
+            display: flex;
+            flex-flow: column;
+
+            img {
+                max-width: 400px;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 690px) {
+    .fream{
+        display: flex;
+        align-items: baseline;
+        flex-direction: column;
+        transition: 0.5s;
+        align-content: center;
+
+        .fream_txt {
+            width: 400px;
+            height: auto;
+            flex-flow: row;
+
+            img {
+                max-width: 200px;
+            }
+        }
+
+        aside img {
+            max-width: 300px;
+
+        }
+    }
+
+
+}
+@import "/style/header.css";
+@import "/style/footer.css"

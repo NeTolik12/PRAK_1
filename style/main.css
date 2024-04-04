@@ -1,0 +1,320 @@
+@import "/style/header.css";
+@import "/style/footer.css";
+body {
+  margin: 0%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font: sans-serif;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  font-size: medium;
+  color: #2c2d35;
+}
+
+.main-body {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.fream {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  position: relative;
+}
+.fream button {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 60px;
+  width: 200px;
+  line-height: 20px;
+  list-style: none;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #376B44;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+}
+.fream .button :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.fream .text {
+  font-size: 20pt;
+}
+
+.REP {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.REP #id1 {
+  justify-self: start;
+  width: 30%;
+  text-align: center;
+}
+.REP .REP_buttons {
+  min-width: 290px;
+}
+.REP .REP_buttons :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.REP button {
+  justify-self: end;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  background-color: #E1EDE6;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7px 16px;
+}
+
+.REPS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: 2s;
+  transition: 2s;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.REPS .plit {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #E1EDE6;
+  max-width: 350px;
+}
+.REPS .plit img {
+  width: 100%;
+  height: auto;
+}
+.REPS .plit p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  -webkit-font-smoothing: antialiased;
+  line-height: 150%;
+  color: #2c2d35;
+}
+.REPS .plit .txt1 {
+  color: #9a9cab;
+}
+.REPS .plit .txt2 {
+  color: #2c2d35;
+}
+.REPS .plit .txt4 {
+  color: #376B44;
+}
+.REPS .plit button {
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 20px;
+  font-weight: 500;
+  height: 60px;
+  width: 100%;
+  line-height: 20px;
+  list-style: none;
+  background-color: #E1EDE6;
+  border-style: solid;
+  border-color: #376B44;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+}
+.REPS .plit .button :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.ban {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+  position: relative;
+  background-image: url(/img/back.png);
+  background-size: 100%;
+}
+.ban p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  color: aliceblue;
+  -webkit-font-smoothing: antialiased;
+  line-height: 150%;
+}
+.ban .ban-1 {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10px;
+}
+.ban .ban-1 .ban-txt {
+  font-size: 3vw;
+  color: aliceblue;
+  width: 50%;
+  background-image: url(../img/ZV.svg);
+  background-position: left center;
+  background-size: 8vw;
+  background-repeat: no-repeat;
+  padding-left: 12%;
+}
+.ban .ban-1 .ban-txt img {
+  width: 50px;
+}
+.ban .ban-1 .ban-txt-2 {
+  font-weight: 500;
+  color: aliceblue;
+  width: 50%;
+}
+.ban .ban-2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 250px;
+}
+.ban .ban-2 :hover {
+  color: aliceblue;
+  background-color: #c3ad2f;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.ban .ban-2 button {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: 500;
+  height: 60px;
+  width: 250px;
+  background-color: #EEDB6D;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+}
+
+.squad {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 70px 0 0 0;
+}
+.squad img {
+  width: 100%;
+  height: auto;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+.squad :hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.squad :not(:hover) {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (min-width: 690px) {
+  .fream {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 2fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    position: relative;
+  }
+  .fream aside img {
+    -ms-flex-item-align: start;
+        align-self: start;
+    max-width: 100%;
+    height: auto;
+    min-width: 200px;
+  }
+  .fream .fream_txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .fream .fream_txt img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+@media (max-width: 690px) {
+  .fream {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .fream .fream_txt {
+    width: 400px;
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  .fream .fream_txt img {
+    max-width: 200px;
+  }
+  .fream aside img {
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=main.css.map */
